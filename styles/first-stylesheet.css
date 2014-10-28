@@ -1,0 +1,58 @@
+/*                        */
+/*    class selectors     */
+/*                        */
+.center {text-align: center }
+
+
+/*                        */
+/*  tag name selectors    */
+/*                        */
+nav {background-color: rgb(92,123,235); }
+
+img {border: 3px solid black;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding: 10px;
+}
+
+header img {max-width: 30%;}
+
+ul img {max-width: 30%;}
+
+header {background-color: lightgray; }
+
+footer {background-color: lightgray; }
+
+footer p { padding-top: 10px;
+           padding-bottom: 10px;
+}
+
+article { margin: 20px; }
+
+ul { list-style-type: none;
+     width: 500px;
+}
+ 
+h3 { font: bold 20px/1.5 Helvetica, Verdana, sans-serif; }
+ 
+li img { float: left;
+         margin: 0 15px 0 0;
+}
+ 
+li p { font: 200 12px/1.5 Georgia, Times New Roman, serif; 
+       padding-top: 0;
+}
+ 
+li {
+  padding: 10px;
+  overflow: auto;
+}
+
+p { padding: 2em; }
+
+
+/*                        */
+/*    id selectors        */
+/*                        */
+#blue {border: 3px solid green; }
